@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlowVélo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body {
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background:  #eeeee1f8;
+  color: #333;
+}
+
+header button {
+  padding: 12px 30px;
+  background: #00c2a8;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button {
+size: 15px;
+padding: 12px 24px;
+background: #00c2a8;
+border: none;
+color: white;
+font-weight: bold;
+cursor: pointer;
+border-radius: 5px;
+}
+
+button:hover {
+background-color: #009f8f;
+}
+
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3">
+  <div class="container d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center">
+      <img src="slowvelo.PNG" alt="Logo SlowVélo" style="height: 120px; margin-right: 20px;">
+      <a class="navbar-brand fw-bold fs-3" href="index.html">SlowVélo</a>
+    </div>
+    <div class="collapse navbar-collapse show justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link fs-5 px-3" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link fs-5 px-3" href="reservation.html">Réservation</a></li>
+        <li class="nav-item"><a class="nav-link fs-5 px-3" href="https://book.stripe.com/5kA02GaFF0U12wUaEH">Paiement</a></li>
+        <li class="nav-item"><a class="nav-link fs-5 px-3" href="index-en.html">EN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header>
+  <div class="content">
+    <h1>Envie de bouger autrement ?</h1>
+    <p id="p1">Découvrez nos tours à vélo guidés, pensés pour les employés en quête de nature, d’énergie et de plaisir.</p>
+    <button onclick="window.location.href='reservation.html'">Réserver maintenant</button>
+  </div>
+</header>
+
+<!-- À PROPOS -->
+<section class="about">
+  <h2>À propos</h2>
+  <p class="single-line">Une initiative de SlowVélo, pour faire bouger les gens sans stress, sans équipement, juste avec du fun. En collaboration avec Atelier vélo express.</p>
+</section>
+
+<!-- TOURS -->
+<section class="tours">
+  <h2>Choisissez votre parcours</h2>
+  <div class="tour">
+    <div class="tour-image">
+      <img src="gouin.PNG" alt="Parcours Boul. Gouin">
+    </div>
+    <div class="tour-details">
+      <h3>Parcours #1 : Boul. Gouin</h3>
+      <p>Parcours verdoyant, au bord de l’eau, parfait pour relaxer et respirer.</p>
+      <p>Durée : 1h30<br>Niveau : Facile<br>Inclus : Vélo BIXI, casque, guide, pause-café</p>
+      <p><strong>Prix :</strong> 50 $ / personne</p>
+      <button onclick="window.location.href='reservation.html'">Réserver maintenant</button>
+    </div>
+  </div>
+  <div class="tour">
+    <div class="tour-image">
+      <img src="lachine.PNG" alt="Parcours Canal de Lachine">
+    </div>
+    <div class="tour-details">
+      <h3>Parcours #2 : Canal de Lachine</h3>
+      <p>Un tour dynamique au cœur de l’histoire montréalaise, entre ville et canal.</p>
+      <p>Durée : 1h30<br>Niveau : Facile<br>Inclus : Vélo BIXI, casque, guide, crème glacée</p>
+      <p><strong>Prix :</strong> 50 $ / personne</p>
+      <button onclick="window.location.href='reservation.html'">Réserver maintenant</button>
+    </div>
+  </div>
+</section>
+
+<!-- ENTREPRISES -->
+<section class="business">
+  <h2>💼 Pour les entreprises</h2>
+  <p id="p3">Offrez à vos équipes une expérience unique pour déconnecter, bouger et renforcer les liens.</p>
+  <button onclick="window.location.href='entreprise.html'">Réserver maintenant</button>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>📞 Contact</h2>
+  <p>Téléphone : 514-478-1530</p>
+  <p>Email : slowvelo.tours@gmail.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2025 SlowVélo. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
